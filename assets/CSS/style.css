@@ -1,0 +1,44 @@
+body{
+    background-color: orange;
+}
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+
+}
+
+button{
+    background-color: transparent;
+    border-radius: 0;
+    border-width: 0;
+}
+
+/* header*/
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*ul{
+    list-style-type: none;
+
+}
+.navbar{
+    overflow: ;
+}
+.navbar a{
+    float: left;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    background-color: black;
+}
+a:hover{
+    font-style: italic;
+}
